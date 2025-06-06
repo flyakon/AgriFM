@@ -10,10 +10,10 @@ num_frames=32
 num_classes=2
 swin_in_embed_dim=128
 embed_dim=1024
-pretrained_weights_path='/mnt/storage/liwenyuan/experiments/downstream_tasks/checkpoints/AgriFM.pth'
-data_path=r'/mnt/storage/liwenyuan/dataset/pretraining/downstream_dataset/early_mapping/example_dataset/h5_samples'
-data_list_path=r'/mnt/storage/liwenyuan/dataset/pretraining/downstream_dataset/early_mapping/example_dataset/data_list'
-work_dir=r'/mnt/storage/liwenyuan/experiments/downstream_tasks/checkpoints/AgriFM/cropland_mapping'
+pretrained_weights_path='Path to weights/AgriFM.pth'
+data_path=r'Path to dataset/example_dataset/h5_samples'
+data_list_path=r'Path to dataset/example_dataset/data_list'
+work_dir=r'./AgriFM/cropland_mapping'
 
 mean={'S2':[4179.192015478227, 4065.9106675194444, 3957.274910960156, 5207.452475253116,
             4327.12234687,4873.16102239,5049.1637925, 5111.07806856,3056.86349163,2490.9675032
