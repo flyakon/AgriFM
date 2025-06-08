@@ -62,7 +62,7 @@ with difference data sources.
 
 We recommend using Miniconda for installation. The following command will create a virtual environment named `AgriFM` and install PyTorch,GDAL and other libraries.
 
-Note: If you have experience with Conda, pytorch, GDAL and have already installed them, you can skip to the next section. Otherwise, you can follow these steps to prepare.
+Note: If you have experience with Conda, pytorch and have already installed them, you can skip to the next section. Otherwise, you can follow these steps to prepare.
 
 <details>
 
