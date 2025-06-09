@@ -127,7 +127,7 @@ pip install ftfy tqdm regex h5py prettytable timm scipy einops numpy==1.26.2
 ## Dataset Preparation
 
 ### Data Download and Example Data
-You can download the dataset from [OneDrive](https://hkuhk-my.sharepoint.com/:u:/g/personal/liwayne_hku_hk/ESVBYsFqQB5Nscyox2wMxnUB5LYD1oszKBt-VCh-xGE0tQ?e=UTgfvM). 
+You can download the dataset from [OneDrive](https://hkuhk-my.sharepoint.com/:u:/g/personal/liwayne_hku_hk/ESVBYsFqQB5Nscyox2wMxnUB5LYD1oszKBt-VCh-xGE0tQ?e=UTgfvM) or [GLASS Website](https://glass.hku.hk/casual/AgriFM/). 
 The dataset includes example data for quick start, 
 formatted as H5 files that follow a unified multi-source remote sensing data structure.
 
@@ -188,7 +188,7 @@ You need to ensure that the outputs of the dataset class follow the same structu
 
 ## Model Training
 
-The pretrained AgriFM weights can be downloaded from [OneDrive](https://hkuhk-my.sharepoint.com/:u:/g/personal/liwayne_hku_hk/EYpkEio2w9lOr_QDwDynTB4BwZPm8QUnlBn4KiicUMvgrQ?e=sAKoxa).
+The pretrained AgriFM weights can be downloaded from [OneDrive](https://hkuhk-my.sharepoint.com/:u:/g/personal/liwayne_hku_hk/EYpkEio2w9lOr_QDwDynTB4BwZPm8QUnlBn4KiicUMvgrQ?e=sAKoxa) or [GLASS Website](https://glass.hku.hk/casual/AgriFM/).
 
 ### Model Architecture
 The AgriFM model consists of three main components:
