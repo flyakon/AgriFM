@@ -66,8 +66,9 @@ class MappingDataset(data_utils.Dataset):
                 label= torch.from_numpy(f[self.label_key][:])
             else:
                 raise KeyError(f'{self.label_key} not found in {data_file}')
-
+        label=torch.unsqueeze(label,dim=0)
         data_dict,label=self.data_pipelines(data_dict,label)
+        label= label.squeeze(dim=0)
         data_dict['file_name'] = file_name
         return data_dict, label.long()
 

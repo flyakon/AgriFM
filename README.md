@@ -244,6 +244,13 @@ To evaluate the model, you can use the following command:
 python test.py configs/cropland_mapping.py work_dirs/cropland_mapping/best_mFscores_xx.pth
 ```
 
+To get the visualization results, you can use the following command:
+
+```shell
+python inference.py configs/cropland_mapping.py work_dirs/cropland_mapping/best_mFscores_xx.pth path/to/your/visualization_output
+```
+
+
 
 ## Citation
 
