@@ -1,6 +1,6 @@
 <div align="center">
     <h2>
-        AgriFM: A Multi-source Temporal Remote Sensing Foundation Model for Crop Mapping
+        AgriFM: A Multi-source Temporal Remote Sensing Foundation Model for Agriculture Mapping
     </h2>
 </div>
 
@@ -16,10 +16,10 @@
 ## Introduction
 
 This repository is the code implementation of the paper 
-[AgriFM: A Multi-source Temporal Remote Sensing Foundation Model for Crop Mapping](https://arxiv.org/abs/2505.21357).
+[AgriFM: A Multi-source Temporal Remote Sensing Foundation Model for Agriculture Mapping](https://arxiv.org/abs/2505.21357).
 
 AgriFM is a multi-source temporal remote sensing foundation model 
-specifically designed for agricultural crop mapping. 
+specifically designed for agricultural Agriculture mapping. 
 Our approach begins by establishing the necessity of simultaneous 
 hierarchical spatiotemporal feature extraction, leading to the 
 development of a modified Video Swin Transformer architecture 
@@ -188,7 +188,7 @@ You need to ensure that the outputs of the dataset class follow the same structu
 
 ## Model Training
 
-The pretrained AgriFM weights can be downloaded from [OneDrive](https://hkuhk-my.sharepoint.com/:u:/g/personal/liwayne_hku_hk/EYpkEio2w9lOr_QDwDynTB4BwZPm8QUnlBn4KiicUMvgrQ?e=sAKoxa) or [GLASS Website](https://glass.hku.hk/casual/AgriFM/).
+The pretrained AgriFM weights can be downloaded from [OneDrive](https://hkuhk-my.sharepoint.com/:u:/g/personal/liwayne_hku_hk/IQBmnMhsLRy6QabkuxMmJi8lAZigBqnMkaQuefCLR_AGzt4?e=MyKeCK) or [GLASS Website](https://glass.hku.hk/casual/AgriFM/).
 
 ### Model Architecture
 The AgriFM model consists of three main components:
@@ -257,14 +257,14 @@ python inference.py configs/cropland_mapping.py work_dirs/cropland_mapping/best_
 If you use the code or performance benchmarks of this project in your research, please refer to the bibtex below to cite.
 
 ```
-@misc{li2025agrifmmultisourcetemporalremote,
-      title={AgriFM: A Multi-source Temporal Remote Sensing Foundation Model for Crop Mapping}, 
-      author={Wenyuan Li and Shunlin Liang and Keyan Chen and Yongzhe Chen and Han Ma and Jianglei Xu and Yichuan Ma and Shikang Guan and Husheng Fang and Zhenwei Shi},
-      year={2025},
-      eprint={2505.21357},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2505.21357}, 
+@article{li2026agrifm,
+  title={AgriFM: A multi-source temporal remote sensing foundation model for Agriculture mapping},
+  author={Li, Wenyuan and Liang, Shunlin and Chen, Keyan and Chen, Yongzhe and Ma, Han and Xu, Jianglei and Ma, Yichuan and Zhang, Yuxiang and Guan, Shikang and Fang, Husheng and others},
+  journal={Remote Sensing of Environment},
+  volume={334},
+  pages={115234},
+  year={2026},
+  publisher={Elsevier}
 }
 ```
 
