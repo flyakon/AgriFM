@@ -15,7 +15,7 @@
 ## Introduction
 
 This repository is the code implementation of the paper 
-[AgriFM: A Multi-source Temporal Remote Sensing Foundation Model for Agriculture Mapping]([https://arxiv.org/abs/2505.21357](https://www.sciencedirect.com/science/article/pii/S0034425726000040)).
+[AgriFM: A Multi-source Temporal Remote Sensing Foundation Model for Agriculture Mapping]([[https://arxiv.org/abs/2505.21357](https://www.sciencedirect.com/science/article/pii/S0034425726000040)]).
 
 AgriFM is a multi-source temporal remote sensing foundation model 
 specifically designed for agricultural Agriculture mapping. 
